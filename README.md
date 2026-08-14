@@ -16,12 +16,6 @@
 
 </div>
 
-## 当前状态
-
-这是一个采用 MIT License 的公开源码 Skill。`examples/` 中的四组输入输出对，是使用者确认的、用于展示固定处理效果的 AI 生成 Demo。
-
-当前尚未创建 GitHub Release tag 或 ZIP 安装附件，也不宣称通用宿主兼容。
-
 ## 安装与已测试 Agent
 
 请直接对 Agent 说：
@@ -42,6 +36,12 @@ git clone https://github.com/Lone3m-tech/smkt-photo-ink
 - **豆包 Agent**：已用同一组四张来源图实际生成，右列保留其原始输出作为对照。它证明该 Agent 可以完成图像重绘；不代表其对固定处理、颜色还原或细节控制的结果与 Codex 等效。
 
 名称与实测结论仅用于说明已测试范围，不暗示任何背书或合作，也不构成对其他宿主的通用兼容承诺。
+
+### 手机端通用流程（以豆包 Agent 界面为例）
+
+下图展示在支持任务执行的手机端 Agent 中，安装并首次使用一个 Skill 的一般步骤。不同 Agent 的入口、模式名称与可用功能可能不同，请以当前界面为准。
+
+![手机端 Agent 安装与首次使用 Skill 的五步流程](examples/agent-install-flow.zh-CN.png)
 
 ## 开始使用
 

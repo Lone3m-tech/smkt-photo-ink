@@ -16,12 +16,6 @@ Designed for Codex and image-capable agents.
 
 </div>
 
-## Current status
-
-This is a public source Skill released under the MIT License. The four source/output pairs in `examples/` are owner-approved, AI-generated demonstrations of the fixed treatment.
-
-No GitHub Release tag or ZIP installer has been created. This repository does not claim universal host compatibility.
-
 ## Install and tested Agents
 
 Ask your Agent:
