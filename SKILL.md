@@ -9,7 +9,7 @@ Turn the uploaded photograph into one coherent, full-scene editorial illustratio
 
 ## Fixed treatment
 
-- Preserve the source image’s aspect ratio, composition, subject count, poses, relative scale, and major left/right/top/bottom relationships.
+- Deliver every result on a vertical 3:5 canvas. When the source ratio differs, recompose the illustration to fit it: retain all main subjects, their poses, relative scale, key scene anchors, and major left/right/top/bottom relationships; add quiet paper or setting breathing room as needed, and crop only non-defining empty margins. Never crop, delete, duplicate, or replace a main subject to force the frame.
 - Keep the main people, animals, or objects recognisable through their silhouette, defining features, clothing, markings, and visible colours. This is a hand-drawn interpretation, not pixel-identical preservation.
 - Preserve the source photo’s colour families and their relationships as muted, translucent washes. Do not substitute a brand palette or add a brand-colour accent.
 - Use a warm off-white, lightly textured paper ground; restrained near-black irregular ink contours; quiet watercolour/ink washes; and open, breathing light areas.
@@ -31,7 +31,7 @@ The delivered image is a complete, recognisable ink-and-wash interpretation with
 
 Use this core after the source-specific scene map:
 
-> Transform the supplied photo into one coherent, complete hand-drawn editorial illustration. Preserve its aspect ratio, composition, subject count, poses, scale, major spatial relationships, and source-derived colour families. Render every person, animal, object, and background element in the same clean ink-and-wash language: warm off-white lightly textured paper, muted translucent source-colour washes, and a few restrained irregular near-black contours. Keep the main subjects recognisable but deliberately simplified; do not leave any photographic cutout, photorealistic face, or realistic clothing. Preserve major scene anchors, but group repeated detail into quiet shapes and selective lines with generous breathing room.
+> Transform the supplied photo into one coherent, complete hand-drawn editorial illustration on a vertical 3:5 canvas. Recompose only to fit that canvas: preserve all main subjects, their poses, relative scale, key scene anchors, major spatial relationships, and source-derived colour families; add quiet paper or setting breathing room as needed, and crop only non-defining empty margins. Never crop, delete, duplicate, or replace a main subject to force the frame. Render every person, animal, object, and background element in the same clean ink-and-wash language: warm off-white lightly textured paper, muted translucent source-colour washes, and a few restrained irregular near-black contours. Keep the main subjects recognisable but deliberately simplified; do not leave any photographic cutout, photorealistic face, or realistic clothing. Preserve major scene anchors, but group repeated detail into quiet shapes and selective lines with generous breathing room.
 
 ## Error handling and minimal change
 
