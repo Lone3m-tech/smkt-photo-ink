@@ -24,14 +24,17 @@
 
 ## 安装
 
-### Codex
+请直接对 Agent 说：
+
+> 请帮我安装这个 Skill：https://github.com/Lone3m-tech/smkt-photo-ink
+
+或在终端执行：
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/Lone3m-tech/smkt-photo-ink.git ~/.codex/skills/smkt-photo-ink
+git clone https://github.com/Lone3m-tech/smkt-photo-ink
 ```
 
-这会将 Skill 放入 Codex 的本机 Skill 目录。仓库不宣称其他宿主兼容；若使用其他 Agent，请按其官方 Skill 目录安装，并确认它支持图片输入、Skill 指令读取与等效参考图编辑。
+宿主需要能够读取 Skill、接收上传图片并完成参考图编辑；实际可用性取决于该宿主。
 
 ## 开始使用
 

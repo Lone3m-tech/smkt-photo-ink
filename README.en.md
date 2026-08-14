@@ -24,14 +24,17 @@ No GitHub Release tag or ZIP installer has been created. This repository does no
 
 ## Install
 
-### Codex
+Ask your Agent:
+
+> Please install this Skill: https://github.com/Lone3m-tech/smkt-photo-ink
+
+Or run:
 
 ```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/Lone3m-tech/smkt-photo-ink.git ~/.codex/skills/smkt-photo-ink
+git clone https://github.com/Lone3m-tech/smkt-photo-ink
 ```
 
-This places the Skill in Codex's local Skill directory. The repository does not claim compatibility with other hosts; for another Agent, use its documented Skill directory and confirm support for image input, Skill instruction reading, and reference-image editing.
+The host must be able to read the Skill, accept an uploaded image, and perform reference-image editing. Availability depends on that host.
 
 ## Get started
 
