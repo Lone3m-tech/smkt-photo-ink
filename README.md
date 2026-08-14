@@ -1,4 +1,4 @@
-![Photo Ink 顶部横幅：四张公开 Ink Demo 组成的编辑式产品总览](examples/readme-banner.zh-CN.png)
+![Photo Ink 顶部横幅：四张当前 Codex Demo 组成的编辑式产品总览](examples/readme-banner.zh-CN.png)
 
 <div align="center">
 
@@ -90,7 +90,7 @@ git clone https://github.com/Lone3m-tech/smkt-photo-ink
 
 ## 完整 Demo
 
-中文顶部横幅 `examples/readme-banner.zh-CN.png` 以四张公开 Codex Demo 的未改写、无边框缩略图组成产品总览。它帮助预览固定处理的适用范围，但不替代下方完整的来源图、Codex 结果与同源豆包 Agent 对照图及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Codex 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
+中文顶部横幅 `examples/readme-banner.zh-CN.png` 以当前 `SKILL.md` 固定处理重新生成的四张 Codex 结果组成无边框拼贴。它帮助预览固定处理的适用范围，但不替代下方完整的来源图、Codex 结果与同源豆包 Agent 对照图及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Codex 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
 
 | 来源图 | Codex 结果 | 豆包 Agent 结果 |
 | --- | --- | --- |
