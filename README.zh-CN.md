@@ -1,4 +1,4 @@
-![Photo Ink 示例：行走人物的水墨水彩重绘](examples/ink-person-walking.png)
+![Photo Ink 顶部横幅：四张公开 Ink Demo 组成的编辑式产品总览](examples/readme-banner.zh-CN.png)
 
 # Photo Ink
 
@@ -67,7 +67,7 @@
 
 ## 完整 Demo
 
-以下四组为使用者确认的 Demo。来源照片已获用于该展示的授权，Ink 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
+中文顶部横幅 `examples/readme-banner.zh-CN.png` 以四张公开 Ink Demo 的未改写、无边框缩略图组成产品总览。它帮助预览固定处理的适用范围，但不替代下方完整的来源图/Ink 结果配对及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Ink 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
 
 | 来源图 | Ink 结果 |
 | --- | --- |

@@ -1,4 +1,4 @@
-![Photo Ink demonstration: a walking person redrawn as an ink-and-wash illustration](examples/ink-person-walking.png)
+![Photo Ink header banner: four public Ink demonstrations in an editorial product overview](examples/readme-banner.en.png)
 
 # Photo Ink
 
@@ -67,7 +67,7 @@ Creators, content teams, and brand teams that need a consistent hand-drawn inter
 
 ## Complete demo
 
-The included pairs are owner-approved examples. The source photos were authorized for this demonstration; the fixed vertical 3:5 Ink results are AI-generated examples. They show the intended treatment, not a guarantee for every image, model, or host.
+The English header banner, `examples/readme-banner.en.png`, is a deterministic unframed collage assembled from unaltered thumbnails of the four public Ink demonstrations. It helps preview the treatment's range, but does not replace the full source/output pairs and their boundaries below. The included pairs are the owner-approved examples. The source photos were authorized for this demonstration; the fixed vertical 3:5 Ink results are AI-generated examples. They show the intended treatment, not a guarantee for every image, model, or host.
 
 | Source | Ink result |
 | --- | --- |
