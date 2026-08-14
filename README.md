@@ -24,11 +24,14 @@
 
 ## 安装
 
-在支持从 GitHub 安装 Agent Skills 的宿主中，请输入：
+### Codex
 
-> 请帮我安装这个 Skill：https://github.com/Lone3m-tech/smkt-photo-ink
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/Lone3m-tech/smkt-photo-ink.git ~/.codex/skills/smkt-photo-ink
+```
 
-宿主需要能够读取 Skill、接收上传图片并完成参考图编辑；实际可用性取决于该宿主。
+这会将 Skill 放入 Codex 的本机 Skill 目录。仓库不宣称其他宿主兼容；若使用其他 Agent，请按其官方 Skill 目录安装，并确认它支持图片输入、Skill 指令读取与等效参考图编辑。
 
 ## 开始使用
 
