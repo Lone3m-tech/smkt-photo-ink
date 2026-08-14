@@ -99,7 +99,7 @@ The English header banner, `examples/readme-banner.en.png`, is a deterministic u
 | ![Alpine valley source](examples/source-alpine-valley.png) | ![Alpine valley Codex result](examples/ink-alpine-valley.png) | ![Alpine valley Doubao Agent result](examples/doubao-alpine-valley.jpg) |
 | ![Three friends source](examples/source-three-friends-low-angle.png) | ![Three friends Codex result](examples/ink-three-friends-low-angle.png) | ![Three friends Doubao Agent result](examples/doubao-three-friends-low-angle.jpg) |
 
-The middle column contains Codex results. The right column contains user-provided Doubao Agent outputs from the same source images, shown only for visual comparison with their original generation marks retained; they are not Codex outputs or performance commitments.
+The middle column contains Codex results. The right column contains user-provided Doubao Agent outputs from the same source images, shown only for visual comparison. Both result columns use the same uncropped 972 × 1619 display specification, with the Doubao generation marks retained; they are not Codex outputs or performance commitments.
 
 ## Dependencies and limitations
 

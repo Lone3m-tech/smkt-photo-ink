@@ -99,7 +99,7 @@ git clone https://github.com/Lone3m-tech/smkt-photo-ink
 | ![雪山草场原图](examples/source-alpine-valley.png) | ![雪山草场 Codex 结果](examples/ink-alpine-valley.png) | ![雪山草场豆包 Agent 结果](examples/doubao-alpine-valley.jpg) |
 | ![低机位三人原图](examples/source-three-friends-low-angle.png) | ![低机位三人 Codex 结果](examples/ink-three-friends-low-angle.png) | ![低机位三人豆包 Agent 结果](examples/doubao-three-friends-low-angle.jpg) |
 
-中间列为 Codex 生成结果，右列为使用同一来源图时由用户提供的豆包 Agent 生成结果，仅作直观对照；右列保留其原有生成标识，不代表 Codex 的输出或性能承诺。
+中间列为 Codex 生成结果，右列为使用同一来源图时由用户提供的豆包 Agent 生成结果，仅作直观对照；两列均统一为 972 × 1619 的无裁切展示规格，右列保留其原有生成标识，不代表 Codex 的输出或性能承诺。
 
 ## 依赖与限制
 
