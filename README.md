@@ -1,88 +1,98 @@
-![Photo Ink header banner: four public Ink demonstrations in an editorial product overview](examples/readme-banner.en.png)
+![Photo Ink 顶部横幅：四张公开 Ink Demo 组成的编辑式产品总览](examples/readme-banner.zh-CN.png)
 
-# Photo Ink
+<div align="center">
 
-> Transform one authorized photo into a fixed vertical 3:5 ink-and-wash illustration while retaining its recognisable subjects, key scene relationships, and source-derived colour relationships.
+# smkt-photo-ink
 
-[GitHub Repository](https://github.com/Lone3m-tech/smkt-photo-ink) · [简体中文](README.zh-CN.md)
+**将一张有权使用的照片整体重绘为固定竖版 3:5 的统一水墨水彩插画。**
 
-## Current status
+为 Codex 与具备生图能力的 Agent 而设计。
 
-This is a public source Skill released under the MIT License. The four source/output pairs in `examples/` are owner-approved, AI-generated demonstrations of the fixed treatment.
+[SimpleMkt](https://simplemkt.cc) · [X](https://x.com/AlchemistZhou) · [小红书](https://www.xiaohongshu.com/user/profile/65a0ecb4000000002201219c) · [抖音](https://www.douyin.com/user/MS4wLjABAAAArV0uXvsSYl6pD-p5nr-5OFlZED5cEUnb7r2K6j9u4tA)
 
-No GitHub Release tag or ZIP installer has been created. This repository does not claim universal host compatibility.
+[官方仓库](https://github.com/Lone3m-tech/smkt-photo-ink) · [查看运行契约](SKILL.md)
 
-## Install
+**简体中文 | [English](README.en.md)**
 
-In a host that supports installing Agent Skills from GitHub, ask:
+</div>
 
-> Please install this Skill: https://github.com/Lone3m-tech/smkt-photo-ink
+## 当前状态
 
-The host must be able to read the Skill, accept an uploaded image, and perform reference-image editing. Availability depends on that host.
+这是一个采用 MIT License 的公开源码 Skill。`examples/` 中的四组输入输出对，是使用者确认的、用于展示固定处理效果的 AI 生成 Demo。
 
-## Get started
+当前尚未创建 GitHub Release tag 或 ZIP 安装附件，也不宣称通用宿主兼容。
 
-Upload a photo you are authorized to transform, then ask:
+## 安装
 
-> Turn this photo into an ink-and-wash illustration.
+在支持从 GitHub 安装 Agent Skills 的宿主中，请输入：
 
-The Skill returns one complete scene redraw. If no usable photo is provided, it asks for one instead of inventing a source scene.
+> 请帮我安装这个 Skill：https://github.com/Lone3m-tech/smkt-photo-ink
 
-## How it works
+宿主需要能够读取 Skill、接收上传图片并完成参考图编辑；实际可用性取决于该宿主。
 
-Photo Ink is a fixed treatment, not a multi-style tool. It redraws people, animals, objects, and backgrounds on a vertical 3:5 canvas in one visual language. When a source ratio differs, it uses quiet paper or setting breathing room to recompose the scene and crops only non-defining empty margins; main subjects, poses, relative scale, key scene anchors, major spatial relationships, and source-derived colour families remain.
+## 开始使用
 
-The treatment uses warm off-white paper, restrained near-black ink contours, translucent source-colour washes, and open breathing room. It has no style, palette, detail, or subject-lock controls.
+上传一张你有权使用的照片，然后说：
 
-## What it does
+> 把这张照片水墨风格化。
 
-- Input: one photo you are authorized to transform.
-- Output: one complete vertical 3:5 ink-and-wash illustration, not a partial filter or collage.
-- Preserves: recognisable subject features, clothing or animal markings, scene anchors, the main composition, and major colour relationships. It never crops, deletes, duplicates, or replaces a main subject to force the frame.
-- Excludes: photographic cutouts, text, labels, logos, watermarks, borders, extra subjects, and distorted anatomy.
+一次请求交付一张完整重绘图。没有可用照片时，Skill 会要求补充图片，而不会凭文字虚构原场景。
 
-## Use cases
+## 如何工作
 
-- Hand-drawn portrait reinterpretations.
-- Full-scene pet-photo redraws.
-- Illustration treatments for an object or everyday scene.
-- Unified rendering of travel, landscape, city, or interior photographs.
+这不是多风格工具。它以固定处理把画面中的人物、动物、物件与背景一起重绘为竖版 3:5。来源图比例不同时，画面以安静的纸面或场景延展重新适配，只裁掉无定义意义的空白边缘；主体、姿势、相对位置、关键场景锚点与主要色彩关系都会保留。
 
-## Who it is for
+画面使用干净的浅白纸张、克制的近黑墨线和半透明的原图色系水彩，并保留足够留白。它不提供风格、配色、细节等级或主体锁定开关。
 
-Creators, content teams, and brand teams that need a consistent hand-drawn interpretation of an existing portrait, pet, object, or scene photo.
+## 它做什么
 
-## Not for
+- 输入：一张用户提供且有权使用的照片。
+- 输出：一张固定竖版 3:5 的完整水墨水彩重绘图，不是局部滤镜或拼贴。
+- 重点保留：主体的可辨认特征、服装或动物花纹、场景锚点、主要构图与来源图的主要色彩关系；不会为了画幅裁掉、删除、复制或替换主体。
+- 明确排除：遗留写实人物、动物、物件或背景切片；文字、标签、Logo、水印与边框。
 
-- Article visual packages, diagrams, text posters, or generating a new scene without a photo.
-- Multiple style, palette, detail, or subject-lock options.
-- Pixel-identical photo preservation, identity verification, automated visual QA, retries, or variant selection.
-- Background swaps or requests that keep a photorealistic subject untouched.
+## 用在哪些场景
 
-## Core capabilities
+- 个人人像的统一手绘化。
+- 宠物照片的全场景水墨水彩重绘。
+- 单一物件与日常生活场景的插画化。
+- 山野、城市或室内照片的统一视觉处理。
 
-- Full-scene consistency: people, animals, objects, and backgrounds are redrawn in one ink-and-wash language.
-- Source relationships first: the treatment fixes the output at vertical 3:5 while retaining subject count, poses, relative scale, major spatial relationships, and source-derived colours; only quiet breathing room or non-defining empty margins adapt the frame.
-- Recognisable interpretation: silhouettes, clothing, markings, and scene anchors support recognition without pixel-level copying.
+## 适合谁
 
-## Complete demo
+希望把人物、宠物、物件或场景照片转为统一手绘插画的个人创作者、内容团队与品牌团队。
 
-The English header banner, `examples/readme-banner.en.png`, is a deterministic unframed collage assembled from unaltered thumbnails of the four public Ink demonstrations. It helps preview the treatment's range, but does not replace the full source/output pairs and their boundaries below. The included pairs are the owner-approved examples. The source photos were authorized for this demonstration; the fixed vertical 3:5 Ink results are AI-generated examples. They show the intended treatment, not a guarantee for every image, model, or host.
+## 不适合谁
 
-| Source | Ink result |
+- 需要文章配图包、信息图、文字海报，或没有照片时生成新场景的人。
+- 需要多种风格、配色、细节等级或主体锁定开关的人。
+- 需要像素级照片保真、人物身份验证、人工质检、自动重试或多版本挑选的人。
+- 只想更换背景，或要求保留原始写实主体的人。
+
+## 核心能力
+
+- 全场景一致：人物、动物、物件与背景都进入同一种水墨水彩语言。
+- 原图关系优先：固定输出竖版 3:5，不任意改变主体数量、姿势、相对关系或来源色彩家族；仅以留白或无定义空白边缘适配画幅。
+- 可辨认而非像素复刻：通过轮廓、服装、动物花纹与场景锚点维持识别特征。
+
+## 完整 Demo
+
+中文顶部横幅 `examples/readme-banner.zh-CN.png` 以四张公开 Ink Demo 的未改写、无边框缩略图组成产品总览。它帮助预览固定处理的适用范围，但不替代下方完整的来源图/Ink 结果配对及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Ink 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
+
+| 来源图 | Ink 结果 |
 | --- | --- |
-| ![Walking person source](examples/source-person-walking.png) | ![Walking person Ink result](examples/ink-person-walking.png) |
-| ![Cat in fox hood source](examples/source-cat-fox-hood.png) | ![Cat in fox hood Ink result](examples/ink-cat-fox-hood.png) |
-| ![Alpine valley source](examples/source-alpine-valley.png) | ![Alpine valley Ink result](examples/ink-alpine-valley.png) |
-| ![Three friends source](examples/source-three-friends-low-angle.png) | ![Three friends Ink result](examples/ink-three-friends-low-angle.png) |
+| ![行走人物原图](examples/source-person-walking.png) | ![行走人物 Ink](examples/ink-person-walking.png) |
+| ![狐狸帽猫咪原图](examples/source-cat-fox-hood.png) | ![狐狸帽猫咪 Ink](examples/ink-cat-fox-hood.png) |
+| ![雪山草场原图](examples/source-alpine-valley.png) | ![雪山草场 Ink](examples/ink-alpine-valley.png) |
+| ![低机位三人原图](examples/source-three-friends-low-angle.png) | ![低机位三人 Ink](examples/ink-three-friends-low-angle.png) |
 
-## Dependencies and limitations
+## 依赖与限制
 
-- Requires image input, Skill instruction reading, and reference-image editing in the host; it does not guarantee support for every host or image model.
-- If image editing is unavailable, the Skill reports the blocker instead of inventing an output.
-- You are responsible for source-image copyright, portrait, and privacy permissions, and for complying with the terms of the image service you use.
-- This is not photo restoration, identity verification, or a guarantee of copyright, privacy, or output-use rights.
+- 运行时需要图片输入、Skill 指令读取与等效参考图编辑能力；不保证所有宿主或图像模型兼容。
+- 若图像编辑能力不可用，Skill 会说明失败，不会假装已生成结果。
+- 使用者负责确认来源照片的版权、肖像与隐私许可，并核对所选图像模型的适用条款。
+- 这不是照片修复、身份验证，也不保证版权、隐私或生成结果的使用权。
 
 ## License
 
-[MIT](LICENSE). Contributions and issue reports are welcome through GitHub.
+[MIT License](LICENSE)。欢迎通过 GitHub 提交 Issue 或贡献。
