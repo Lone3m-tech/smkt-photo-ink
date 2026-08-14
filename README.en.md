@@ -46,15 +46,15 @@ The Skill returns one complete scene redraw. If no usable photo is provided, it 
 
 ## How it works
 
-Photo Ink is a fixed treatment, not a multi-style tool. It redraws people, animals, objects, and backgrounds on a vertical 3:5 canvas in one visual language. When a source ratio differs, it uses quiet paper or setting breathing room to recompose the scene and crops only non-defining empty margins; main subjects, poses, relative scale, key scene anchors, major spatial relationships, and source-derived colour families remain.
+Photo Ink is a fixed treatment, not a multi-style tool. It redraws people, animals, objects, and backgrounds on a vertical 3:5 canvas in one visual language. When a source ratio differs, it uses quiet scene breathing room to recompose the scene and crops only non-defining empty margins; main subjects, poses, relative scale, key scene anchors, major spatial relationships, and the source photo's dominant and local hues, white balance, cool/warm relationships, relative brightness, and saturation remain.
 
-The treatment uses warm off-white paper, restrained near-black ink contours, translucent source-colour washes, and open breathing room. It has no style, palette, detail, or subject-lock controls.
+The treatment uses restrained near-black ink contours, source-faithful watercolour/ink washes, and open breathing room. Colour fidelity takes priority over material effect: it does not apply a global warm, beige, yellow, brown, or sepia colour grade, or bleach or desaturate existing source-derived regions. It has no style, palette, detail, or subject-lock controls.
 
 ## What it does
 
 - Input: one photo you are authorized to transform.
 - Output: one complete vertical 3:5 ink-and-wash illustration, not a partial filter or collage.
-- Preserves: recognisable subject features, clothing or animal markings, scene anchors, the main composition, and major colour relationships. It never crops, deletes, duplicates, or replaces a main subject to force the frame.
+- Preserves: recognisable subject features, clothing or animal markings, scene anchors, the main composition, and the source photo's dominant and local hues, white balance, cool/warm relationships, relative brightness, and saturation. It never crops, deletes, duplicates, or replaces a main subject to force the frame.
 - Excludes: photographic cutouts, text, labels, logos, watermarks, borders, extra subjects, and distorted anatomy.
 
 ## Use cases
@@ -78,7 +78,7 @@ Creators, content teams, and brand teams that need a consistent hand-drawn inter
 ## Core capabilities
 
 - Full-scene consistency: people, animals, objects, and backgrounds are redrawn in one ink-and-wash language.
-- Source relationships first: the treatment fixes the output at vertical 3:5 while retaining subject count, poses, relative scale, major spatial relationships, and source-derived colours; only quiet breathing room or non-defining empty margins adapt the frame.
+- Source colour fidelity first: the treatment fixes the output at vertical 3:5 while retaining subject count, poses, relative scale, major spatial relationships, source hues, white balance, cool/warm relationships, relative brightness, and saturation. It does not apply a global warm, beige, yellow, brown, or sepia colour grade; only quiet breathing room or non-defining empty margins adapt the frame.
 - Recognisable interpretation: silhouettes, clothing, markings, and scene anchors support recognition without pixel-level copying.
 
 ## Complete demo
