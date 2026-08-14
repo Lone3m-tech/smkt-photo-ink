@@ -22,7 +22,7 @@
 
 当前尚未创建 GitHub Release tag 或 ZIP 安装附件，也不宣称通用宿主兼容。
 
-## 安装
+## 安装与已测试 Agent
 
 请直接对 Agent 说：
 
@@ -34,7 +34,14 @@
 git clone https://github.com/Lone3m-tech/smkt-photo-ink
 ```
 
-宿主需要能够读取 Skill、接收上传图片并完成参考图编辑；实际可用性取决于该宿主。
+这是已验证的公开仓库路径。由 Agent 按宿主原生方式完成安装并报告结果；安装成功只说明文件已就位，完整工作流仍要求宿主能读取 Skill、接收上传图片并完成参考图编辑。
+
+已完成实际运行的 Agent：
+
+- **Codex**：已验证可读取本地图片、调用图像生成能力，并交付固定竖版 3:5 的完整重绘。中间列四张结果均由 Codex 生成。
+- **豆包 Agent**：已用同一组四张来源图实际生成，右列保留其原始输出作为对照。它证明该 Agent 可以完成图像重绘；不代表其对固定处理、颜色还原或细节控制的结果与 Codex 等效。
+
+名称与实测结论仅用于说明已测试范围，不暗示任何背书或合作，也不构成对其他宿主的通用兼容承诺。
 
 ## 开始使用
 
@@ -83,14 +90,16 @@ git clone https://github.com/Lone3m-tech/smkt-photo-ink
 
 ## 完整 Demo
 
-中文顶部横幅 `examples/readme-banner.zh-CN.png` 以四张公开 Ink Demo 的未改写、无边框缩略图组成产品总览。它帮助预览固定处理的适用范围，但不替代下方完整的来源图/Ink 结果配对及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Ink 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
+中文顶部横幅 `examples/readme-banner.zh-CN.png` 以四张公开 Codex Demo 的未改写、无边框缩略图组成产品总览。它帮助预览固定处理的适用范围，但不替代下方完整的来源图、Codex 结果与同源豆包 Agent 对照图及其边界说明。以下四组才是使用者确认的 Demo。来源照片已获用于该展示的授权，Codex 结果均为固定竖版 3:5 的 AI 生成示例。它们展示固定处理的预期效果，不保证其他图片、模型或宿主得到相同结果。
 
-| 来源图 | Ink 结果 |
-| --- | --- |
-| ![行走人物原图](examples/source-person-walking.png) | ![行走人物 Ink](examples/ink-person-walking.png) |
-| ![狐狸帽猫咪原图](examples/source-cat-fox-hood.png) | ![狐狸帽猫咪 Ink](examples/ink-cat-fox-hood.png) |
-| ![雪山草场原图](examples/source-alpine-valley.png) | ![雪山草场 Ink](examples/ink-alpine-valley.png) |
-| ![低机位三人原图](examples/source-three-friends-low-angle.png) | ![低机位三人 Ink](examples/ink-three-friends-low-angle.png) |
+| 来源图 | Codex 结果 | 豆包 Agent 结果 |
+| --- | --- | --- |
+| ![行走人物原图](examples/source-person-walking.png) | ![行走人物 Codex 结果](examples/ink-person-walking.png) | ![行走人物豆包 Agent 结果](examples/doubao-person-walking.jpg) |
+| ![狐狸帽猫咪原图](examples/source-cat-fox-hood.png) | ![狐狸帽猫咪 Codex 结果](examples/ink-cat-fox-hood.png) | ![狐狸帽猫咪豆包 Agent 结果](examples/doubao-cat-fox-hood.jpg) |
+| ![雪山草场原图](examples/source-alpine-valley.png) | ![雪山草场 Codex 结果](examples/ink-alpine-valley.png) | ![雪山草场豆包 Agent 结果](examples/doubao-alpine-valley.jpg) |
+| ![低机位三人原图](examples/source-three-friends-low-angle.png) | ![低机位三人 Codex 结果](examples/ink-three-friends-low-angle.png) | ![低机位三人豆包 Agent 结果](examples/doubao-three-friends-low-angle.jpg) |
+
+中间列为 Codex 生成结果，右列为使用同一来源图时由用户提供的豆包 Agent 生成结果，仅作直观对照；右列保留其原有生成标识，不代表 Codex 的输出或性能承诺。
 
 ## 依赖与限制
 
